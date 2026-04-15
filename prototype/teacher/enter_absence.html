@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Zaključivanje ocene</title>
+    <title>Izostanak</title>
 </head>
 <body>
 
@@ -17,31 +17,33 @@
     <hr>
 </header>
 
-<h2>Zaključivanje ocene</h2>
+<h2>Evidentiranje izostanka</h2>
 
 <p><strong>Učenik:</strong> Marko Marković</p>
 
 <label>Predmet:</label>
 <select>
     <option>Matematika</option>
-    <option>Fizika</option>
-    <option>Hemija</option>
+    <option>Engleski jezik</option>
 </select>
 
 <br><br>
 
-<label>Predlog:</label>
-<input type="number" value="5" disabled>
+<label>Status:</label>
+<select>
+    <option>Opravdan</option>
+    <option>Neopravdan</option>
+</select>
 
 <br><br>
 
-<label>Konačna ocena:</label>
-<input type="number" min="1" max="5">
+<label>Napomena:</label><br>
+<textarea rows="4" cols="50"></textarea>
 
 <br><br>
 
-<a href="teacher_grades_view.html">
-    <button>Zaključi</button>
+<a href="view_grades.html">
+    <button>Upiši izostanak</button>
 </a>
 
 </body>
